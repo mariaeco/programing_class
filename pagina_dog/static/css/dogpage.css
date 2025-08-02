@@ -1,0 +1,14 @@
+
+img {
+    width: 200px; /*LARGURA*/
+    height: auto; /*ALTURA*/
+}
+
+.content {
+    border: 2px solid red; /*BORDAS*/
+}
+
+
+.header {
+    border: 2px solid blue; /*BORDAS*/
+}

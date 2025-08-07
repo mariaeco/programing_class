@@ -1,4 +1,39 @@
 
+.navbar {
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 10%; /*LARGURA*/
+    font-weight: 800; /*NEGRITO*/
+    color: white; /*COR*/
+    background-color: aquamarine;
+}
+.logo a{
+        color: white; /*COR*/
+        text-decoration: none;
+}
+.search-bar {
+    width: 90%; /*LARGURA*/
+    display: flex;
+    padding-left:20px;
+
+}
+ul {
+    list-style-type: none; /*LISTA*/
+    margin: 0; /*MARGEM*/
+    padding: 0; /*PADDING*/
+}
+ul li {
+    display: inline; /*EXIBIÇÃO*/
+    margin-right: 20px; /*MARGEM*/
+}
+li a {
+    text-decoration: none;
+    color:darkorange;
+}
+
 img {
     width: 200px; /*LARGURA*/
     height: auto; /*ALTURA*/

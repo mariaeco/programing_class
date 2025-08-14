@@ -3,22 +3,31 @@
     background-color: rgb(3, 3, 3);
     display: flex;
     align-items: center;
+    height: 70px;    
 }
+
+
 .logo {
     width: 10%; /*LARGURA*/
     font-weight: 800; /*NEGRITO*/
     color: white; /*COR*/
     background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    align-items: center; /*ALINHAMENTO VERTICAL*/
+    justify-content: center; /*ALINHAMENTO HORIZONTAL*/
+    text-align: center; /*ALINHAMENTO HORIZONTAL*/
 }
 .logo a{
         color: white; /*COR*/
         text-decoration: none;
+        font-size: 40px;
+
 }
 .search-bar {
     width: 90%; /*LARGURA*/
     display: flex;
     padding-left:20px;
-
 }
 ul {
     list-style-type: none; /*LISTA*/
@@ -29,9 +38,17 @@ ul li {
     display: inline; /*EXIBIÇÃO*/
     margin-right: 20px; /*MARGEM*/
 }
+
 li a {
     text-decoration: none;
     color:darkorange;
+    font-size: 30px;
+}
+
+li a:hover {
+    color: white; /*COR*/
+    /* font-size: 35px; */
+    font-weight: 700;
 }
 
 img {

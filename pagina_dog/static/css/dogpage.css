@@ -56,11 +56,21 @@ img {
     height: auto; /*ALTURA*/
 }
 
-.content {
-    border: 2px solid red; /*BORDAS*/
+
+.header {
+    font-size: 30px;
+    align-items: center; /*ALINHAMENTO VERTICAL*/
+    justify-content: center; /*ALINHAMENTO HORIZONTAL*/
+    text-align: center; /*ALINHAMENTO HORIZONTAL*/
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3); 
+    /*HORIZONTAL-VERTICAL-BORRÃO*/
+    font-family: sans-serif;
+    font-weight: 800;
 }
 
 
-.header {
-    border: 2px solid blue; /*BORDAS*/
+.content {
+    border: 2px solid red; /*BORDAS*/
+    display:flex;
+
 }

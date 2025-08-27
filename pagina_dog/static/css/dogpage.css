@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .navbar {
     background-color: rgb(3, 3, 3);
@@ -70,7 +75,36 @@ img {
 
 
 .content {
-    border: 2px solid red; /*BORDAS*/
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); 
+    width: 100%;
+    justify-items: center; /* centraliza os itens horizontalmente */
+    align-items: center; /* centraliza os itens verticalmente */
+    justify-content: center; /* centraliza todo o grid */
+    /* 3 colunas de tamanhos iguais */
+ }
 
+ .spp-dog {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(194, 177, 177);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center; /*ALINHAMENTO VERTICAL*/
+    justify-content: center; /*ALINHAMENTO HORIZONTAL*/
+    text-align: center; /*ALINHAMENTO HORIZONTAL*/
+ }
+
+ .spp-dog img {
+    width: 130px; /* largura  */
+    height: 130px; /* altura  */
+    border-radius: 8px;
+    object-fit: cover; /*fit = ajuste object=objeto cover=cobrir*/
+}
+
+.spp-dog:hover {
+    transform: scale(2);
+    transition: transform 0.3s ease;
+    background-color: #ba9090;
 }

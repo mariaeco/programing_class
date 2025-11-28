@@ -31,30 +31,26 @@ Estruturas de dados: listas, dicionários
 
 Funções e introdução ao GitHub
 
-Projeto: CRUD simples em Python
+Listas de Exercícios
 
-### 🔹 Módulo 2 – Área de Dados
+
+
+### 🔹 Módulo 2 – Front-End
+Fundamentos de HTML e CSS
+
+Introdução ao framework Flask
+
+Projeto: Página simples - Front-End
+
+
+### 🔹 Módulo 3 – Área de Dados
 Introdução a DataFrames com pandas
 
 Visualização de dados: gráficos e tabelas
 
 Banco de dados: SQL
 
-Projeto: CRUD com Python + SQL
-
-### 🔹 Módulo 3 – Front-End
-Fundamentos de HTML e CSS
-
-Introdução ao framework Flask
-
-Projeto: Integração de front-end ao CRUD
-
-### 🔹 Módulo 4 – Inteligência Artificial
-Introdução ao Processamento de Linguagem Natural (PLN)
-
-Modelos de linguagem e agentes de IA com CrewAI
-
-Projeto Final: Desenvolvimento de um chatbot ou app com IA
+Projeto: CRUD com Python FLASK + SQL ou PHP + SQL
 
 
 
@@ -64,16 +60,11 @@ Projeto Final: Desenvolvimento de um chatbot ou app com IA
     ├── modulo1_programacao_basica/
     │   ├── exemplos.ipynb
     │   ├── exercicios.py
-    │   └── projeto_crud/
-    ├── modulo2_dados/
-    │   ├── manipulacao_dados.ipynb
-    │   └── projeto_crud_sql/
-    ├── modulo3_frontend/
+    ├── modulo2_frontend/
     │   ├── html_css_basico/
-    │   └── flask_app/
-    ├── modulo4_ia/
-    │   ├── introducao_pln.ipynb
-    │   └── projeto_ia_chatbot/
+    ├── modulo3_dados/
+    │   ├── manipulacao_dados.ipynb
+    │   └── projeto_flask_php_crud_sql/
     └── README.md
 
 

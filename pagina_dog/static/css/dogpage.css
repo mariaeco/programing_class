@@ -104,7 +104,7 @@ img {
 }
 
 .spp-dog:hover {
-    transform: scale(2);
+    transform: scale(1.2);
     transition: transform 0.3s ease;
     background-color: #ba9090;
 }

@@ -1,0 +1,135 @@
+
+html, body {
+    width: 100%; /*largura*/
+    height: 100vh; /*altura*/
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main {
+    width: 450px; /*largura*/
+    height: 550px; /*altura*/
+    background: linear-gradient(135deg, #409696 0%, #62dcdc 0%, #037777 100%);
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 18px rgba(6, 60, 85, 0.5);
+}
+
+.register {
+  background: linear-gradient(135deg, #da8044 0%, #d68427 0%, #8c2d05 100%);
+}
+
+.main h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #134040;
+    text-align: center;
+}
+
+
+.main h2 {
+    font-size: 24px;
+    color: #046161;
+}
+
+#login-escola, #register-escola {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 8px;
+    /* align-items: stretch; */
+}
+
+#login-escola label,
+#register-escola label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+
+#login-escola input[type="text"],
+#login-escola input[type="password"],
+#register-escola input[type="text"],
+#register-escola input[type="password"]{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 12px;
+     width: 300px;
+}
+
+#login-escola input[type="text"]:focus,
+#login-escola input[type="password"]:focus{
+    outline: none;
+    border-color: rgb(5, 123, 146);
+}
+
+
+
+#login-escola input[type="submit"],
+#register-escola input[type="submit"] {
+    margin-top: 20px;
+    width: 120px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(7, 143, 197);
+    box-shadow: 0 8px 12px rgba(6, 60, 85, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+
+#register-escola input[type="submit"]{
+    background-color: rgb(191, 197, 7);
+}
+
+#login-escola input[type="submit"]:hover{
+    background-color: rgb(4, 73, 100);;
+    color: rgb(7, 143, 197);
+}
+
+#register-escola input[type="submit"]:hover {
+    background-color: rgb(216, 102, 8);;
+    color: rgb(215, 234, 242);
+}
+
+#login-escola input[type="submit"]:active {
+    background-color: rgba(100, 4, 4, 0.963);;
+    color: rgb(228, 244, 251);
+}
+
+#register-escola input[type="submit"]:active {
+    background-color: rgba(51, 49, 199, 0.963);;
+    color: rgb(228, 244, 251);
+}
+
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+    color:rgb(160, 195, 209)
+}
+
+a:hover {
+    color:rgb(92, 181, 216)
+}

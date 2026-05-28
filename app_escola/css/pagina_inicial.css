@@ -1,0 +1,16 @@
+html, body {
+    background-color: rgb(115, 150, 70);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 600px;
+    background-color: bisque;
+    border-radius: 15px;
+}
